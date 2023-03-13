@@ -1,0 +1,55 @@
+$primary-color: #4285F4;
+$secondary-color: #DB4437;
+$tertiary-color: #F4B400;
+$quaternary-color: #0F9D58;
+$font-size: 16px;
+$border-width: 1px;
+$border-color: #CCCCCC;
+$background-color: #FFFFFF;
+$text-color: #333333;
+$padding-size: 10px;
+
+.container {
+  background-color: $background-color;
+  border: $border-width solid $border-color;
+  color: $text-color;
+  font-size: $font-size;
+  padding: $padding-size;
+  
+  .header {
+    background-color: $primary-color;
+    color: $background-color;
+    padding: $padding-size;
+    
+    h1 {
+      font-size: $font-size * 1.5;
+      margin: 0;
+    }
+  }
+  
+  .content {
+    background-color: $secondary-color;
+    color: $background-color;
+    padding: $padding-size;
+    
+    p {
+      font-size: $font-size;
+      margin-bottom: $padding-size;
+    }
+  }
+  
+  .footer {
+    background-color: $tertiary-color;
+    color: $background-color;
+    padding: $padding-size;
+    
+    a {
+      color: $quaternary-color;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

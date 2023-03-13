@@ -1,0 +1,39 @@
+.container {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  color: #333333;
+  font-size: 16px;
+  padding: 10px;
+}
+.container .header {
+  background-color: #4285F4;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.container .header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+.container .content {
+  background-color: #DB4437;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.container .content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.container .footer {
+  background-color: #F4B400;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.container .footer a {
+  color: #0F9D58;
+  text-decoration: none;
+}
+.container .footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
